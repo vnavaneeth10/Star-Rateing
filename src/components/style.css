@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(96, 169, 149);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.active {
+    color: #fff700;
+}
+
+.inactive {
+    color:#000000;
+}
