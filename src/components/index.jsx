@@ -18,13 +18,14 @@ export default function StarRateing({noOfStars = 6}) {
         setHover(getCurrentIndex)
     }
 
-    function handleMouseLeave(getCurrentIndex){
+    function handleMouseLeave(){
         setHover(rating);
     }
 
     return <div className="star-rating">
         {
             [...Array(noOfStars)].map((_,index) => {
+                // (map(_,index)) here _ is used to ignore the first parameter
 
                 index += 1
 
